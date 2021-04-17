@@ -8,5 +8,5 @@ int main(int argc, char *argv[]) {
 
     window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(window), "Breakout Clone");
-    
+    gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
 }
